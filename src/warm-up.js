@@ -19,7 +19,8 @@ var pages = 592;
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
 // of what it currently is
-pageCount
+pages = 592 / 4
+ 
 
 
 // Initialize a new variable "movie", but leave it undefined
