@@ -78,18 +78,18 @@ function checkFavoriteBook() {
 
 // Create a new variable "books" and assign it to an Array of 5 different
 // book titles, represented by their names as Strings.
-
+var books = ['How to change your mind', 'The Lone Ranger and Tonto fistfight in heaven', 'War dances', 'Falling Up', 'Where the Sidewalk Ends',];
 
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
-
+books[2];
 
 // Create a new variable "belowTwoHundred" and assign it to an Array of 12
 // different numbers below two hundred.
-
+var belowTwoHundred = [2, 4, 5, 10, 25, 46, 3, 90, 100, 32, 76, 198,];
 
 // Write the code to access the 5th element of the array, using bracket notation.
-
+belowTwoHundred[4];
 
 //------------------------- Objects -------------------------//
 
