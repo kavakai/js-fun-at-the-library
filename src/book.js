@@ -21,13 +21,15 @@ function saveReview(review, reviews) {
   return reviews
 }
 
-
+function calculatePageCount() {
+  
+}
 
 module.exports = {
   createTitle,
   buildMainCharacter,
   saveReview,
-  // calculatePageCount,
+  calculatePageCount,
   // writeBook,
   // editBook
 }
