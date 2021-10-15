@@ -1,6 +1,8 @@
 function createTitle(title) {
   return (`The ${title}`);
 }
+createTitle("Storm's Awakening");
+
 function buildMainCharacter(name, age, pronouns) {
   ghoulCharacter = {
     name: name,
@@ -10,12 +12,15 @@ function buildMainCharacter(name, age, pronouns) {
   return ghoulCharacter
 }
 
-createTitle("Storm's Awakening");
+function saveReview(review, reviews) {
+  reviews.push(review)
+  return reviews
+}
 
 module.exports = {
   createTitle,
   buildMainCharacter,
-  // saveReview,
+  saveReview,
   // calculatePageCount,
   // writeBook,
   // editBook
