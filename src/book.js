@@ -21,8 +21,8 @@ function saveReview(review, reviews) {
   return reviews
 }
 
-function calculatePageCount() {
-  
+function calculatePageCount(bookTitle, bookPageCount) {
+  return (bookTitle.length*20)
 }
 
 module.exports = {
