@@ -1,7 +1,6 @@
 function createTitle(title) {
   return (`The ${title}`);
 }
-createTitle("Storm's Awakening");
 
 function buildMainCharacter(name, age, pronouns) {
   ghoulCharacter = {
@@ -25,9 +24,19 @@ function calculatePageCount(bookTitle, bookPageCount) {
   return (bookTitle.length*20)
 }
 
-function writeBook() {
-  
+function writeBook(bookTitle, bookCharacter, genre,) {
+  newBook = {
+    title: bookTitle,
+    mainCharacter: bookCharacter,
+    genre: genre,
+    pageCount: bookTitle.length*20,
+  }
+  console.log(newBook);
+  return newBook
 }
+
+
+
 
 module.exports = {
   createTitle,
