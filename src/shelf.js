@@ -5,8 +5,12 @@ return shelf
 }
 }
 
-function unshelfBook() {
-  
+function unshelfBook(title, shelf) {
+   for (var i = 0; i < shelf.length; i++)
+  if (title === shelf[i].title) {
+   shelf.splice(i, 1)
+ }  console.log(shelf)
+ return shelf
 }
 
 
