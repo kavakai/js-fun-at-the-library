@@ -13,10 +13,13 @@ function unshelfBook(title, shelf) {
  return shelf
 }
 
+function listTitles() {
+  
+}
 
 module.exports = {
   shelfBook,
   unshelfBook,
-  // listTitles,
+  listTitles,
   // searchShelf
 };
