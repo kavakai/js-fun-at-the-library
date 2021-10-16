@@ -1,5 +1,6 @@
-function shelfBook() {
-
+function shelfBook(titles, shelf) {
+  shelf.unshift(titles);
+return shelf
 }
 
 
