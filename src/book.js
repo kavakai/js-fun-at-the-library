@@ -31,14 +31,14 @@ function writeBook(bookTitle, bookCharacter, genre,) {
     genre: genre,
     pageCount: bookTitle.length*20,
   }
-  console.log(newBook);
+  // console.log(newBook);
   return newBook
 }
 
 function editBook(newBook) {
   var newPageCount = newBook.pageCount*=(3/4)
 
-  console.log(newPageCount)
+  // console.log(newPageCount)
   return newPageCount
 }
 
