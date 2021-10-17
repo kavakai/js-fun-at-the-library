@@ -9,8 +9,12 @@ function createLibrary(libraryName) {
   };
 }
 
+function addBook(libraryName, bookTitle) {
+ return libraryName.shelves[bookTitle.genre].push(bookTitle);
+
+}
 module.exports = {
   createLibrary,
-  // addBook,
+  addBook,
   // checkoutBook
 };
